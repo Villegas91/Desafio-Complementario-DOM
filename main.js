@@ -16,7 +16,7 @@ function addOfertas() {
 
     contenedor.innerHTML = `<div class="cards">
       <div class="img"><img src=".//img/notebook.jpg" alt=""></div>
-      <div class="description"><p> ${products[i].marca}</p><div class="costo">Precio</div></div></div>`;
+      <div class="description"><p> ${products[i].marca}</p><div class="costo">${products[i].precio}</div></div></div>`;
 
     document.getElementById("ofertas").appendChild(contenedor);
   }
